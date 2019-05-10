@@ -35,7 +35,6 @@ CREATE TABLE `vote_record` (
 #### 3.创建函数及存储过程
 
 ```mysql
-
 CREATE FUNCTION `rand_string`(n INT) RETURNS varchar(255) CHARSET latin1
 BEGIN 
 DECLARE chars_str varchar(100) DEFAULT 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'; 
